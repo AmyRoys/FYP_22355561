@@ -1,0 +1,24 @@
+{
+  "name": "fyp_22355561",
+  "version": "1.0.0",
+  "description": "Final Year Project for LM173 - Immersive Software Engineering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmyRoys/FYP_22355561.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmyRoys/FYP_22355561/issues"
+  },
+  "homepage": "https://github.com/AmyRoys/FYP_22355561#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.306",
+    "typescript": "^5.7.3"
+  }
+}
