@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file
-file_path = 'c:/Users/L093017/OneDrive - Eli Lilly and Company/Documents/Dev/FYP_22355561/DataCollection/CleanedRedditReviews.csv'
+file_path = 'c:/Users/L093017/OneDrive - Eli Lilly and Company/Documents/Dev/FYP_22355561/DataCollection/collected_reviews.csv'
 df = pd.read_csv(file_path)
 
 # Define themes and keywords
@@ -22,11 +22,11 @@ def categorize_comment(comment):
             categories.append(theme)
     return ', '.join(categories)
 
-# Apply the categorization function to the 'CleanedReview' column
-df['Categories'] = df['CleanedReview'].apply(categorize_comment)
+# Apply the categorization function to the 'Review' column
+df['Categories'] = df['Review'].apply(categorize_comment)
 
 # Save the categorized data to a new CSV file
-categorized_file_path = 'c:/Users/L093017/OneDrive - Eli Lilly and Company/Documents/Dev/FYP_22355561/DataCollection/CategorizedRedditReviews.csv'
+categorized_file_path = 'c:/Users/L093017/OneDrive - Eli Lilly and Company/Documents/Dev/FYP_22355561/DataCollection/categorised_reviews.csv'
 df.to_csv(categorized_file_path, index=False)
 
 print(f"Categorized data saved to {categorized_file_path}")
