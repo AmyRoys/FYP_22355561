@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Load the dataset
-file_path = 'c:/Users/L093017/OneDrive - Eli Lilly and Company/Documents/Dev/FYP_22355561/DataCollection/categorised_YesChat_reviews.csv'
+file_path = 'c:/Users/L093017/OneDrive - Eli Lilly and Company/Documents/Dev/FYP_22355561/DataCollection/reviews/Heurio_reviews.csv'
 df = pd.read_csv(file_path)
 
 # Separate positive and negative reviews
