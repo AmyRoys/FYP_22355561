@@ -4,43 +4,45 @@ import ReviewsIcon from '@mui/icons-material/RateReview';
 import InsightsIcon from '@mui/icons-material/Insights';
 import ForumIcon from '@mui/icons-material/Forum';
 import HelpIcon from '@mui/icons-material/Help';
+import { Link } from 'react-router-dom';
+import '../styles/Sidebar.css';
 
 const Sidebar = () => {
   return (
-    <div style={{ width: '250px', backgroundColor: '#f5f5f5', height: '100vh', padding: '20px' }}>
+    <div className="sidebar">
       <h2>Dashboard v0.1</h2>
       <List>
-        <ListItem component="button">
+        <ListItem component={Link} to="/">
           <ListItemIcon>
             <DashboardIcon />
           </ListItemIcon>
           <ListItemText primary="Dashboard" />
         </ListItem>
-        <ListItem component="button">
+        <ListItem component={Link} to="/evaluations">
           <ListItemIcon>
             <DashboardIcon />
           </ListItemIcon>
           <ListItemText primary="Evaluations" />
         </ListItem>
-        <ListItem component="button">
+        <ListItem component={Link} to="/reviews">
           <ListItemIcon>
             <ReviewsIcon />
           </ListItemIcon>
           <ListItemText primary="Reviews" />
         </ListItem>
-        <ListItem component="button">
+        <ListItem component={Link} to="/insights">
           <ListItemIcon>
             <InsightsIcon />
           </ListItemIcon>
           <ListItemText primary="Insights" />
         </ListItem>
-        <ListItem component="button">
+        <ListItem component={Link} to="/forum">
           <ListItemIcon>
             <ForumIcon />
           </ListItemIcon>
           <ListItemText primary="Forum" />
         </ListItem>
-        <ListItem component="button">
+        <ListItem component={Link} to="/help">
           <ListItemIcon>
             <HelpIcon />
           </ListItemIcon>

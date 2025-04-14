@@ -20,5 +20,8 @@
   "devDependencies": {
     "@types/chrome": "^0.0.306",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.5.0"
   }
 }

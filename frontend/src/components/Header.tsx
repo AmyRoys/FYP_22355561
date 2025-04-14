@@ -1,8 +1,10 @@
+import '../styles/Header.css';
+
 const Header = () => {
   return (
-    <div style={{ padding: '20px', backgroundColor: '#fff', borderBottom: '1px solid #ddd' }}>
+    <div className="header">
       <h1>Hello Emily 👋</h1>
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>
+      <div className="header-content">
         <div>
           <h3>Flagged Instances</h3>
           <p>5,423</p>

@@ -1,0 +1,13 @@
+/* ReviewsTable styles */
+.reviews-table-container {
+  margin: 20px;
+}
+
+.reviews-table a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.reviews-table a:hover {
+  text-decoration: underline;
+}

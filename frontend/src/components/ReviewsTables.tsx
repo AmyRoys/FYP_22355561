@@ -1,5 +1,5 @@
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button } from '@mui/material';
-
+import '../styles/ReviewsTables.css';
 const reviews = [
   { platform: 'Spotify', url: 'https://www.spotify.com', review: 'Low contrast text on product pages – fails accessibility.', status: 'Active' },
   { platform: 'Reddit', url: 'https://www.reddit.com', review: 'Pushes users into connections by auto-suggesting.', status: 'Inactive' },
