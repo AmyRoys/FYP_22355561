@@ -1,0 +1,111 @@
+.forum {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.forum h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.forum-main {
+  display: flex;
+  gap: 20px;
+}
+
+.discussion {
+  flex: 2;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discussion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-discussion {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-discussion:hover {
+  background-color: #0056b3;
+}
+
+.vote-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.vote-button:hover {
+  background-color: #218838;
+}
+
+.suggestions {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestion-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-button, .suggest-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #f0f0f0;
+}
+
+.suggest-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.suggest-button:hover {
+  background-color: #0056b3;
+}
+
+.direct-messages {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.direct-messages .message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}

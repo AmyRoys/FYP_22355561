@@ -1,0 +1,101 @@
+.insights {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.insights h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.insights-summary {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.summary-card {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.summary-card p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.summary-card span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.insights-charts {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.chart {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.insights-bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.table, .chart {
+  flex: 1;
+}
+
+.table.top-patterns {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.table.top-patterns h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.table.top-patterns table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table.top-patterns th, .table.top-patterns td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table.top-patterns th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table.top-patterns tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
