@@ -1,0 +1,86 @@
+.evaluations {
+  padding: 20px;
+}
+
+.evaluations h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.evaluations-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-button,
+.date-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.evaluations-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  min-height: 200px;
+}
+
+.to-do {
+  background-color: #f0f4ff;
+}
+
+.in-progress {
+  background-color: #fff4e5;
+}
+
+.done {
+  background-color: #e5ffe5;
+}
+
+.column h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.add-task-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.task-card {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+
+.task-card:active {
+  cursor: grabbing;
+}

@@ -2,6 +2,8 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import ReviewsTable from './components/ReviewsTables';
+import Evaluations from './components/Evaluations';
+import Dashboard from './components/Dashboard';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -13,8 +15,9 @@ function App() {
         <div style={{ flex: 1, backgroundColor: '#f9f9f9' }}>
           <div style={{ padding: '20px' }}>
             <Routes>
-              <Route path="/" element={<Header />} />
+              <Route path="/" element={<Dashboard />} />
               <Route path="/reviews" element={<><Header /><ReviewsTable /></>} />
+              <Route path="/evaluations" element={<Evaluations />} />
               {/* Add more routes here for other pages */}
             </Routes>
           </div>
