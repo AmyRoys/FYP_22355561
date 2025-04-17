@@ -1,0 +1,32 @@
+[
+  {
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/",
+    "review": "Time is hidden ",
+    "status": "Active"
+  },
+  {
+    "platform": "Spotify",
+    "url": "https://www.spotify.com",
+    "review": "Low contrast text on product pages – fails accessibility.",
+    "status": "Active"
+  },
+  {
+    "platform": "Reddit",
+    "url": "https://www.reddit.com",
+    "review": "Pushes users into connections by auto-suggesting.",
+    "status": "Inactive"
+  },
+  {
+    "platform": "Zara",
+    "url": "https://www.zara.com",
+    "review": "Excellent accessibility overall, but the gamification is distracting.",
+    "status": "Inactive"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com",
+    "review": "Sneaky UI – checkbox to join Prime is auto-selected.",
+    "status": "Active"
+  }
+]
