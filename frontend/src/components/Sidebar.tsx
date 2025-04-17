@@ -7,6 +7,8 @@ import HelpIcon from '@mui/icons-material/Help';
 import { Link } from 'react-router-dom';
 import '../styles/Sidebar.css';
 
+import SidebarB from './SidebarB';
+
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -53,4 +55,5 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+// export default Sidebar;
+export default SidebarB;
