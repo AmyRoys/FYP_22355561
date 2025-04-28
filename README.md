@@ -7,7 +7,6 @@ This project is a comprehensive tool designed to collect, manage, and display us
 ## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
-3. [Project Structure](#project-structure)
 4. [Data Collection](#data-collection)
 5. [Backend](#backend)
 6. [Frontend](#frontend)
