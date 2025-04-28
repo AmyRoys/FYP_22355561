@@ -1,3 +1,4 @@
+/* General styles for both options page and popup */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -83,4 +84,40 @@ h2 {
 
 .review-status.inactive {
   background: #ff7043;
+}
+
+/* Styles specific to the options page */
+body.options-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body.options-page .review-card {
+  width: 100%;
+}
+
+/* Styles specific to the popup */
+body.popup-page {
+  width: 500px; 
+  height: 300px; 
+  padding: 10px;
+  overflow-y: auto; 
+  box-sizing: border-box;
+}
+
+body.popup-page .review-card {
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+body.popup-page .review-text {
+  font-size: 0.9rem;
+}
+
+body.popup-page .review-link {
+  font-size: 0.8rem;
+}
+
+body.popup-page .review-status {
+  font-size: 0.8rem;
 }
